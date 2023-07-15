@@ -1,3 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 body{
-        
+    width: 1920px;
+    height: 1080px;
+    background: #0F0E0E;
+    overflow: hidden;
+}
+body h1{
+    position: absolute;
+    left: 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 127px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+body h3{
+    position: absolute;
+    top: 220px;
+    left: 40px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+body p{
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    width: 336px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 22.4px */
+}
+.ballCenter{
+    position: absolute;
+    left: 500px;
+    top: 70px;
+    width: 428px;
+    height: 428px;
+    flex-shrink: 0;
+    border-radius: 428px;
+    background: linear-gradient(180deg, #FDC898 0%, rgba(181, 23, 255, 0.11) 100%);
+}
+.small-circle1{
+    position: absolute;
+    left: 400px;
+    width: 54px;
+    height: 54px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    width: 54px;
+    height: 54px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+}
+.small-circle-2{
+    position: absolute;
+    left: 900px;
+    top: 45px;
+    width: 54px;
+    height: 54px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, #FDC898 0%, rgba(181, 23, 255, 0.11) 100%);
+}
+.small-circle-3{
+    position: absolute;
+    left: 960px;
+    top: 400px;
+    width: 54px;
+    height: 54px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, #FDC898 0%, rgba(181, 23, 255, 0.11) 100%);
+}
+.circle{
+    width: 751px;
+    height: 751px;
+    flex-shrink: 0;
+    border-radius: 751px;
+    color: white;
 }
